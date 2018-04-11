@@ -6,8 +6,7 @@ import java.util.Hashtable;
  * Created by tangyongdong on 2018/4/10
  */
 public class ShapeCache {
-    private static Hashtable<String, Shape> shapeMap
-            = new Hashtable<String, Shape>();
+    private static Hashtable<String, Shape> shapeMap = new Hashtable<>();
 
     public static Shape getShape(String shapeId) {
         Shape cachedShape = shapeMap.get(shapeId);
